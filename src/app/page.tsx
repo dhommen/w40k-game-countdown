@@ -109,7 +109,7 @@ export default function Home() {
           <h2 className={styles.unleashed}>IT IS TIME. UNLEASH CHAOS!</h2>
         )}
         <p className={`${styles.quote} ${isFading ? styles.quoteHidden : ''}`}>
-          "{quotes[quoteIndex]}"
+          &quot;{quotes[quoteIndex]}&quot;
         </p>
       </main>
 
@@ -154,7 +154,7 @@ export default function Home() {
                 </ul>
                 <p><strong>Cookies:</strong> This site does not use cookies for tracking purposes.</p>
                 <p><strong>Third-Party Services:</strong> We use Vercel for hosting, which may collect data according to their privacy policy.</p>
-                <p>For more information, please refer to <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel's Privacy Policy</a>.</p>
+                <p>For more information, please refer to <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Vercel&quot;s Privacy Policy</a>.</p>
               </div>
             </div>
           </div>
